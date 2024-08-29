@@ -1,0 +1,231 @@
+const employees = [
+    {
+        name: "Calvin Mahlangu",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Boitumelo Mahlangu",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Zakhele Khumalo",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Andrew Kgwadi",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Leon Coetzee",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "William Moshupye",
+        fines: [
+            { amount: 1000, reason: "For not doing his work" },
+            { amount: 1000, reason: "Late coming" },
+            { amount: 1000, reason: "For not following the instructions from the leader" },
+            { amount: 1000, reason: "Late coming / Not following the rules" }
+        ]
+    },
+    {
+        name: "Precious Skosana",
+        fines: [
+            { amount: 1000, reason: "For not taking Mr Mahlangu serious, undermining and poor performance" },
+            { amount: 1500, reason: "For not following the instructions from the leader" },
+            { amount: 2000, reason: "Late coming" }
+        ]
+    },
+    {
+        name: "Maud Weideman",
+        fines: [
+            { amount: 250, reason: "Late coming" }
+        ]
+    },
+    {
+        name: "Lesego Moatshe",
+        fines: [
+            { amount: 250, reason: "Late coming" },
+            { amount: 1500, reason: "For not following the instructions from the leader" }
+        ]
+    },
+    {
+        name: "Naledi Bhuda",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Lesego Matea",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Ishmael Ngcobo",
+        fines: [
+            { amount: 1000, reason: "For irregular expenditure of company funds" },
+            { amount: 500, reason: "Late coming" },
+            { amount: 500, reason: "Late coming" }            
+        ]
+    },
+    {
+        name: "Katlego Moagi",
+        fines: [
+            { amount: 1000, reason: "For irregular expenditure of company funds" },            
+        ]
+    },
+    {
+        name: "Hope Monakwe",
+        fines: [
+            { amount: 1000, reason: "For irregular expenditure of company funds" },            
+            { amount: 500, reason: "Late coming" },            
+            { amount: 500, reason: "Late coming" },               
+        ]
+    },
+    {
+        name: "Kamogelo Methlape",
+        fines: [
+            { amount: 1000, reason: "For irregular expenditure of company funds" },            
+            { amount: 500, reason: "Late coming" },            
+            { amount: 500, reason: "Late coming" },      
+            { amount: 250, reason: "Not following instructions" },               
+            { amount: 500, reason: "Late coming" },                        
+        ]
+    },
+    {
+        name: "Brice Meissner",
+        fines: [
+            { amount: 500, reason: "Late coming" },            
+            { amount: 250, reason: "Not following intructions" },               
+        ]
+    },
+    {
+        name: "Luzuko Komani",
+        fines: [
+            { amount: 1000, reason: "Late coming" },            
+            { amount: 250, reason: "Late coming" },   
+            { amount: 500, reason: "Late coming" },   
+         
+        ]
+    },
+    {
+        name: "Mzwandile Mabiletsa",
+        fines: [
+            { amount: 1000, reason: "Late coming" },            
+            { amount: 250, reason: "Poor work performance" },           
+        ]
+    },
+    {
+        name: "Fhedzani Malivha",
+        fines: [
+            { amount: 250, reason: "Issuing all equipments to CPOs" },           
+        ]
+    },
+    {
+        name: "Oscar Mgiba",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Matimba Chauke",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Beauty Simelane",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Mpho Mogale",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Lindokuhle Masanabo",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Thokozani Mahlangu",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Tshwarelo Ndala",
+        fines: [
+            { amount: 0, reason: "NO FINES" },
+        ]
+    },
+    {
+        name: "Oriel Sefoloko",
+        fines: [
+            { amount: 250, reason: "For Leaving with the Mahindra key" },
+            { amount: 500, reason: "Failure to follow instructions" },
+            { amount: 500, reason: "Late coming" },
+            { amount: 250, reason: "Inconveniecing the boss" },
+
+        ]
+    },
+    {
+        name: "Malebogo Sere",
+        fines: [
+            { amount: 250, reason: "For recognising Mr Khumalo" },
+        ]
+    },
+    // Add more employees and fines here
+];
+
+function displayEmployees() {
+    const employeeList = document.getElementById('employee-list');
+    employeeList.innerHTML = '';
+
+    employees.forEach((employee, index) => {
+        const total = employee.fines.reduce((sum, fine) => sum + fine.amount, 0);
+        const li = document.createElement('li');
+        li.textContent = `${employee.name} - R${total}`;
+        li.addEventListener('click', () => showDetails(index));
+        employeeList.appendChild(li);
+    });
+}
+
+function showDetails(index) {
+    const employee = employees[index];
+    document.getElementById('employee-name').textContent = employee.name;
+    
+    const finesList = document.getElementById('fines-list');
+    finesList.innerHTML = '';
+
+    employee.fines.forEach(fine => {
+        const li = document.createElement('li');
+        li.textContent = `R${fine.amount} - ${fine.reason}`;
+        finesList.appendChild(li);
+    });
+
+    document.getElementById('employee-list').classList.add('hidden');
+    document.getElementById('fine-details').classList.remove('hidden');
+}
+
+function goBack() {
+    document.getElementById('employee-list').classList.remove('hidden');
+    document.getElementById('fine-details').classList.add('hidden');
+}
+
+displayEmployees();
