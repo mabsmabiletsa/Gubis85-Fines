@@ -32,10 +32,7 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 1000, reason: "For not doing his work" },
-            { amount: 1000, reason: "Late coming" },
-            { amount: 1000, reason: "For not following the instructions from the leader" },
-            { amount: 1000, reason: "Late coming / Not following the rules" }
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
@@ -96,10 +93,7 @@ const employees = [
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 1000, reason: "For irregular expenditure of company funds" },            
-            { amount: 500, reason: "Late coming" },            
             { amount: 500, reason: "Late coming" },      
-            { amount: 250, reason: "Not following instructions" },               
             { amount: 500, reason: "Late coming" },                        
         ]
     },
@@ -123,13 +117,16 @@ const employees = [
         name: "Mzwandile Mabiletsa",
         fines: [
             { amount: 1000, reason: "Late coming" },            
-            { amount: 250, reason: "Poor work performance" },           
+            { amount: 250, reason: "Poor work performance" },          
+            { amount: 250, reason: "Not requesting fuel" },            
         ]
     },
     {
         name: "Fhedzani Malivha",
         fines: [
-            { amount: 250, reason: "Issuing all equipments to CPOs" },           
+            { amount: 250, reason: "Issuing all equipments to CPOs" },     
+            { amount: 250, reason: "Failure to take instructions", date: "2024-08-27" },            
+            { amount: 250, reason: "Not requesting fuel" },                  
         ]
     },
     {
