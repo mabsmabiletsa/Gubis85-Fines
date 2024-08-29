@@ -5,6 +5,15 @@ body {
     padding: 20px;
 }
 
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#logo {
+    max-width: 200px;
+}
+
 .container {
     max-width: 800px;
     margin: auto;
@@ -12,6 +21,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
 }
 
 h1 {
@@ -98,4 +108,8 @@ footer {
     footer {
         font-size: 12px;
     }
+    #logo {
+        max-width: 150px;
+    }
+
 }

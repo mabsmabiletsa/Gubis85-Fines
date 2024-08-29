@@ -206,6 +206,7 @@ function displayEmployees() {
     });
 }
 
+
 function showDetails(index) {
     const employee = employees[index];
     document.getElementById('employee-name').textContent = employee.name;
@@ -215,7 +216,7 @@ function showDetails(index) {
 
     employee.fines.forEach(fine => {
         const li = document.createElement('li');
-        li.textContent = `R${fine.amount} - ${fine.reason}`;
+        li.textContent = `R${fine.amount} - ${fine.reason} (Date: ${fine.date})`;
         finesList.appendChild(li);
     });
 
