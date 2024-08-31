@@ -18,11 +18,41 @@
             <h2 id="employee-name"></h2>
             <ul id="fines-list"></ul>
             <button onclick="goBack()">Go Back</button>
+            <button onclick="showDisputeForm()">Dispute Fine</button>
         </div>
     </div>
+
+    <div id="dispute-form" class="hidden">
+        <h2>Dispute Fine</h2>
+        <form id="dispute" onsubmit="submitDispute(event)">
+            <label for="employee-email">Your Email:</label>
+            <input type="email" id="employee-email" required>
+
+            <label for="fine-reason">Reason for Dispute:</label>
+            <textarea id="fine-reason" required></textarea>
+
+            <button type="submit">Submit Dispute</button>
+            <button type="button" onclick="cancelDispute()">Cancel</button>
+        </form>
+    </div>
+
+    <div id="dispute-form" class="hidden">
+        <h2>Dispute Fine</h2>
+        <form id="dispute" onsubmit="submitDispute(event)">
+            <label for="employee-email">Your Email:</label>
+            <input type="email" id="employee-email" required>
+
+            <label for="fine-reason">Reason for Dispute:</label>
+            <textarea id="fine-reason" required></textarea>
+
+            <button type="submit">Submit Dispute</button>
+            <button type="button" onclick="cancelDispute()">Cancel</button>
+        </form>
+    </div>
+</div>
         
     <footer>
-        Copyright © - 2024. All rights reserved. Developed by Mzwandile Mabiletsa
+        Copyright © - 2024. All rights reserved. Developed by ZWANZIG SOLUTIONS
     </footer>
 
     <script src="script.js"></script>

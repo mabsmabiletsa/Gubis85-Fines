@@ -32,15 +32,13 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 1000, reason: "Not concentrating", date: "2024-08-29" },
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
         name: "Precious Skosana",
         fines: [
-            { amount: 1000, reason: "For not taking Mr Mahlangu serious, undermining and poor performance" },
-            { amount: 1500, reason: "For not following the instructions from the leader" },
-            { amount: 2000, reason: "Late coming" }
+            { amount: 0, reason: "NO FINE"},
         ]
     },
     {
@@ -78,22 +76,19 @@ const employees = [
     {
         name: "Katlego Moagi",
         fines: [
-            { amount: 1000, reason: "For irregular expenditure of company funds" },            
+            { amount: 0, reason: "NO FINES" },            
         ]
     },
     {
         name: "Hope Monakwe",
         fines: [
-            { amount: 1000, reason: "For irregular expenditure of company funds" },            
-            { amount: 500, reason: "Late coming" },            
-            { amount: 500, reason: "Late coming" },               
+            { amount: 0, reason: "NO FINES" },            
         ]
     },
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 500, reason: "Late coming" },      
-            { amount: 500, reason: "Late coming" },                        
+            { amount: 0, reason: "NO FINES" },      
         ]
     },
     {
@@ -189,6 +184,8 @@ const employees = [
     // Add more employees and fines here
 ];
 
+let currentEmployee = '';
+
 function displayEmployees() {
     const employeeList = document.getElementById('employee-list');
     employeeList.innerHTML = '';
@@ -225,4 +222,26 @@ function goBack() {
     document.getElementById('fine-details').classList.add('hidden');
 }
 
+function showDisputeForm() {
+    document.getElementById('fine-details').classList.add('hidden');
+    document.getElementById('dispute-form').classList.remove('hidden');
+}
+function cancelDispute() {
+    document.getElementById('dispute-form').classList.add('hidden');
+    document.getElementById('fine-details').classList.remove('hidden');
+}
+
+function submitDispute(event) {
+    event.preventDefault();
+    
+    const email = document.getElementById('employee-email').value;
+    const reason = document.getElementById('fine-reason').value;
+
+    const mailtoLink = `mailto:logistics@gubis85.co.za?subject=Fine Dispute by ${currentEmployee}&body=Employee Email: ${email}%0D%0AReason for Dispute: ${reason}`;
+    window.location.href = mailtoLink;
+
+    cancelDispute();
+}
+
 displayEmployees();
+
