@@ -81,13 +81,13 @@ const employees = [
     {
         name: "Hope Monakwe",
         fines: [
-            { amount: 0, reason: "NO FINES" },            
+            { amount: 500, reason: "Not Completing Mr Mahlangu's tasks", date: "31-08-2024" },      
         ]
     },
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 0, reason: "NO FINES" },      
+            { amount: 500, reason: "Not Completing Mr Mahlangu's tasks", date: "31-08-2024" },      
         ]
     },
     {
