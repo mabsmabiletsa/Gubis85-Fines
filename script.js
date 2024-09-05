@@ -14,13 +14,13 @@ const employees = [
     {
         name: "Zakhele Khumalo",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 1000, reason: "Poor Management", date: "04-09-2024" },
         ]
     },
     {
         name: "Andrew Kgwadi",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 1000, reason: "Poor Management", date: "04-09-2024" },
         ]
     },
     {
@@ -32,26 +32,28 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },
         ]
     },
     {
         name: "Precious Skosana",
         fines: [
-            { amount: 0, reason: "NO FINE"},
+            { amount: 1000, reason: "Poor Management", date: "04-09-2024" },
         ]
     },
     {
         name: "Maud Weideman",
         fines: [
-            { amount: 250, reason: "Late coming" }
+            { amount: 250, reason: "Late coming" },
+            { amount: 1000, reason: "Poor Management", date: "04-09-2024" },
         ]
     },
     {
         name: "Lesego Moatshe",
         fines: [
             { amount: 250, reason: "Late coming" },
-            { amount: 1500, reason: "For not following the instructions from the leader" }
+            { amount: 1500, reason: "For not following the instructions from the leader" },
+            { amount: 1000, reason: "Poor Management", date: "04-09-2024" },
         ]
     },
     {
@@ -69,7 +71,7 @@ const employees = [
     {
         name: "Ishmael Ngcobo",
         fines: [
-            { amount: 0, reason: "NO FINES" }            
+            { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },
         ]
     },
     {
@@ -87,7 +89,8 @@ const employees = [
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 500, reason: "Not Completing Mr Mahlangu's tasks", date: "31-08-2024" },      
+            { amount: 500, reason: "Not Completing Mr Mahlangu's tasks", date: "31-08-2024" },  
+            { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },    
         ]
     },
     {
@@ -103,6 +106,8 @@ const employees = [
             { amount: 1000, reason: "Late coming" },            
             { amount: 250, reason: "Late coming" },   
             { amount: 500, reason: "Late coming" },   
+            { amount: 500, reason: "Late coming", date: "02-09-2024" },   
+
          
         ]
     },
@@ -111,7 +116,9 @@ const employees = [
         fines: [
             { amount: 1000, reason: "Late coming" },            
             { amount: 250, reason: "Poor work performance" },          
-            { amount: 250, reason: "Not requesting fuel" },            
+            { amount: 250, reason: "Not requesting fuel" },     
+            { amount: 500, reason: "Late coming", date: "05-09-2024" },            
+       
         ]
     },
     {
@@ -149,7 +156,13 @@ const employees = [
     {
         name: "Lindokuhle Masanabo",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },
+        ]
+    },
+    {
+        name: "Ernest Maja",
+        fines: [
+            { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },
         ]
     },
     {
