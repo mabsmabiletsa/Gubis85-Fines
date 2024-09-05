@@ -53,7 +53,6 @@ const employees = [
         fines: [
             { amount: 250, reason: "Late coming" },
             { amount: 1500, reason: "For not following the instructions from the leader" },
-            { amount: 1000, reason: "Poor Management", date: "04-09-2024" },
         ]
     },
     {
@@ -77,7 +76,7 @@ const employees = [
     {
         name: "Katlego Moagi",
         fines: [
-            { amount: 0, reason: "NO FINES" },            
+            { amount: 500, reason: "Exchaning company vehicle without consent from Ops Manager.", date: "05-09-2024" },
         ]
     },
     {
@@ -148,9 +147,9 @@ const employees = [
         ]
     },
     {
-        name: "Mpho Mogale",
+        name: "Mpho Maluleka",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "Exchaning company vehicle without consent from Ops Manager.", date: "05-09-2024" },
         ]
     },
     {
@@ -168,7 +167,7 @@ const employees = [
     {
         name: "Thokozani Mahlangu",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "Exchaning company vehicle without consent from Ops Manager.", date: "05-09-2024" },
         ]
     },
     {
