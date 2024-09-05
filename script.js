@@ -193,6 +193,12 @@ const employees = [
             { amount: 250, reason: "For recognising Mr Khumalo" },
         ]
     },
+    {
+        name: "Tshegofatso Tau",
+        fines: [
+            { amount: 500, reason: "Failing Client's Request", date: "05-09-2024" },            
+        ]
+    },
     // Add more employees and fines here
 ];
 
