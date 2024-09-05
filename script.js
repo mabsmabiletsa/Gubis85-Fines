@@ -199,6 +199,12 @@ const employees = [
             { amount: 500, reason: "Failing Client's Request", date: "05-09-2024" },            
         ]
     },
+    {
+        name: "Mathews Gaubose",
+        fines: [
+            { amount: 250, reason: "Lack of Concentration", date: "30-08-2024" },            
+        ]
+    },
     // Add more employees and fines here
 ];
 
