@@ -21,6 +21,8 @@ const employees = [
         name: "Andrew Kgwadi",
         fines: [
             { amount: 1000, reason: "Poor Management", date: "04-09-2024" },
+            { amount: 1000, reason: "Late coming", date: "09-09-2024" },   
+
         ]
     },
     {
@@ -115,6 +117,7 @@ const employees = [
             { amount: 250, reason: "Late coming" },   
             { amount: 500, reason: "Late coming" },   
             { amount: 500, reason: "Late coming", date: "02-09-2024" },   
+            { amount: 500, reason: "Late coming", date: "09-09-2024" },   
 
          
         ]
