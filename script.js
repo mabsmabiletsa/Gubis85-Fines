@@ -32,7 +32,9 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },
+            { amount: 1000, reason: "Gross Misconduct", date: "04-09-2024" },
+            { amount: 1000, reason: "Not removing Mahlangu's personal items out of his vehicle", date: "08-09-2024" },
+
         ]
     },
     {
@@ -77,19 +79,26 @@ const employees = [
         name: "Katlego Moagi",
         fines: [
             { amount: 500, reason: "Exchaning company vehicle without consent from Ops Manager.", date: "05-09-2024" },
+            { amount: 500, reason: "Distortion", date: "09-09-2024" },
+
         ]
     },
     {
         name: "Hope Monakwe",
         fines: [
-            { amount: 500, reason: "Not Completing Mr Mahlangu's tasks", date: "31-08-2024" },      
+            { amount: 250, reason: "Not concentrating", date: "07-09-2024" },   
+            { amount: 2000, reason: "Distortion", date: "09-09-2024" },
+   
         ]
     },
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 500, reason: "Not Completing Mr Mahlangu's tasks", date: "31-08-2024" },  
             { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },    
+            { amount: 250, reason: "Not concentrating", date: "07-09-2024" },      
+            { amount: 2000, reason: "Distortion", date: "09-09-2024" },
+
+
         ]
     },
     {
@@ -116,8 +125,8 @@ const employees = [
             { amount: 1000, reason: "Late coming" },            
             { amount: 250, reason: "Poor work performance" },          
             { amount: 250, reason: "Not requesting fuel" },     
-            { amount: 500, reason: "Late coming", date: "05-09-2024" },            
-       
+            { amount: 500, reason: "Late coming", date: "05-09-2024" },      
+            { amount: 500, reason: "Not removing Mahlangu's personal items out of his vehicle", date: "08-09-2024" },
         ]
     },
     {
