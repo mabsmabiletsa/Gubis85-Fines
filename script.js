@@ -35,7 +35,7 @@ const employees = [
         fines: [
             { amount: 1000, reason: "Gross Misconduct", date: "04-09-2024" },
             { amount: 1000, reason: "Not removing Mahlangu's personal items out of his vehicle", date: "08-09-2024" },
-
+            { amount: 2000, reason: "Leaving key to the safe", date: "10-09-2024" },
         ]
     },
     {
@@ -134,7 +134,9 @@ const employees = [
         fines: [
             { amount: 250, reason: "Issuing all equipments to CPOs" },     
             { amount: 250, reason: "Failure to take instructions", date: "2024-08-27" },            
-            { amount: 250, reason: "Not requesting fuel" },                  
+            { amount: 250, reason: "Not requesting fuel" },         
+            { amount: 2000, reason: "Leaving key to the safe", date: "10-09-2024" },
+         
         ]
     },
     {
