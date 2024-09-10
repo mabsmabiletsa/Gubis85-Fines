@@ -73,7 +73,7 @@ const employees = [
     {
         name: "Ishmael Ngcobo",
         fines: [
-            { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },
+            { amount: 1000, reason: "Gross Misconduct", date: "04-09-2024" },
         ]
     },
     {
@@ -97,7 +97,7 @@ const employees = [
         fines: [
             { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },    
             { amount: 250, reason: "Not concentrating", date: "07-09-2024" },      
-            { amount: 2000, reason: "Distortion", date: "09-09-2024" },
+            { amount: 1500, reason: "Distortion", date: "09-09-2024" },
 
 
         ]
@@ -210,9 +210,17 @@ const employees = [
     {
         name: "Mathews Gaubose",
         fines: [
-            { amount: 250, reason: "Lack of Concentration", date: "30-08-2024" },            
+            { amount: 250, reason: "Lack of Concentration", date: "30-08-2024" },          
+            { amount: 250, reason: "Leaving lights on", date: "10-09-2024" },              
         ]
     },
+    {
+        name: "Kate Lebese",
+        fines: [
+            { amount: 500, reason: "Leaving fleet control unattended", date: "10-09-2024" },              
+        ]
+    },
+    
     // Add more employees and fines here
 ];
 
