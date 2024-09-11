@@ -127,7 +127,7 @@ const employees = [
             { amount: 250, reason: "Failure to take instructions", date: "2024-08-27" },            
             { amount: 250, reason: "Not requesting fuel" },         
             { amount: 2000, reason: "Leaving key to the safe", date: "10-09-2024" },
-         
+            { amount: 250, reason: "Not following instructions", date: "11-09-2024" },                  
         ]
     },
     {
