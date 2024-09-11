@@ -25,12 +25,6 @@ const employees = [
         ]
     },
     {
-        name: "Leon Coetzee",
-        fines: [
-            { amount: 0, reason: "NO FINES" },
-        ]
-    },
-    {
         name: "William Moshupye",
         fines: [
             { amount: 1000, reason: "Gross Misconduct", date: "04-09-2024" },
@@ -56,6 +50,7 @@ const employees = [
         fines: [
             { amount: 250, reason: "Late coming" },
             { amount: 1500, reason: "For not following the instructions from the leader" },
+            { amount: 150, reason: "Not telling Oscar ti wear uniform", date: "11-09-2024" },
         ]
     },
     {
