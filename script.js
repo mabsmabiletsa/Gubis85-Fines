@@ -95,11 +95,7 @@ const employees = [
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 1000, reason: "Gross Misconduct", date: "04-09-2024" },    
-            { amount: 250, reason: "Not concentrating", date: "07-09-2024" },      
-            { amount: 1500, reason: "Distortion", date: "09-09-2024" },
-            { amount: 500, reason: "Not thinking", date: "10-09-2024" },
-            { amount: 500, reason: "Lack of concentration and failing to execute tasks", date: "10-09-2024" },
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
