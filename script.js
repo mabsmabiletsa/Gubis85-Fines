@@ -14,7 +14,7 @@ const employees = [
     {
         name: "Zakhele Khumalo",
         fines: [
-            { amount: 1000, reason: "Poor Management", date: "04-09-2024" },
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
