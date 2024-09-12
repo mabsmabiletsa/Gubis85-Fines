@@ -118,6 +118,8 @@ const employees = [
             { amount: 250, reason: "Not requesting fuel" },     
             { amount: 500, reason: "Late coming", date: "05-09-2024" },      
             { amount: 500, reason: "Not removing Mahlangu's personal items out of his vehicle", date: "08-09-2024" },
+            { amount: 500, reason: "Car due for service", date: "12-09-2024" },
+
         ]
     },
     {
@@ -210,7 +212,14 @@ const employees = [
     {
         name: "Kate Lebese",
         fines: [
-            { amount: 500, reason: "Leaving fleet control unattended", date: "10-09-2024" },              
+            { amount: 500, reason: "Leaving fleet control unattended", date: "10-09-2024" }, 
+            { amount: 500, reason: "Car due for service", date: "12-09-2024" },             
+        ]
+    },
+    {
+        name: "Busi Mahlangu",
+        fines: [
+            { amount: 500, reason: "Car due for service", date: "12-09-2024" },             
         ]
     },
     
