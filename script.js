@@ -27,7 +27,6 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 1000, reason: "Gross Misconduct", date: "04-09-2024" },
             { amount: 1000, reason: "Not removing Mahlangu's personal items out of his vehicle", date: "08-09-2024" },
             { amount: 2000, reason: "Leaving key to the safe", date: "10-09-2024" },
         ]
@@ -113,7 +112,6 @@ const employees = [
     {
         name: "Mzwandile Mabiletsa",
         fines: [
-            { amount: 1000, reason: "Late coming" },            
             { amount: 250, reason: "Poor work performance" },          
             { amount: 250, reason: "Not requesting fuel" },     
             { amount: 500, reason: "Late coming", date: "05-09-2024" },      
