@@ -20,15 +20,13 @@ const employees = [
     {
         name: "Andrew Kgwadi",
         fines: [
-            { amount: 1000, reason: "Poor Management", date: "04-09-2024" },
-
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
         name: "William Moshupye",
         fines: [
-            { amount: 1000, reason: "Not removing Mahlangu's personal items out of his vehicle", date: "08-09-2024" },
-            { amount: 2000, reason: "Leaving key to the safe", date: "10-09-2024" },
+            { amount: 500, reason: "Delaying", date: "16-09-2024" },             
         ]
     },
     {
@@ -40,16 +38,13 @@ const employees = [
     {
         name: "Maud Weideman",
         fines: [
-            { amount: 250, reason: "Late coming" },
-            { amount: 1000, reason: "Poor Management", date: "04-09-2024" },
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
         name: "Lesego Moatshe",
         fines: [
-            { amount: 250, reason: "Late coming" },
-            { amount: 1500, reason: "For not following the instructions from the leader" },
-            { amount: 150, reason: "Not telling Oscar ti wear uniform", date: "11-09-2024" },
+            { amount: 500, reason: "Failing to verify Bank Holdings pay slips", date: "15-09-2024" },             
         ]
     },
     {
@@ -67,12 +62,13 @@ const employees = [
     {
         name: "Ishmael Ngcobo",
         fines: [
-            { amount: 0, reason: "NO FINES" },        ]
+            { amount: 0, reason: "NO FINES" },        
+        ]
     },
     {
         name: "Katlego Moagi",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "Delaying", date: "16-09-2024" },             
         ]
     },
     {
@@ -193,6 +189,18 @@ const employees = [
         name: "Busi Mahlangu",
         fines: [
             { amount: 0, reason: "NO FINES" },             
+        ]
+    },
+    {
+        name: "Christopher Gumbi",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "15-09-2024" },             
+        ]
+    },
+    {
+        name: "Azaria Khambani",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "15-09-2024" },             
         ]
     },
     
