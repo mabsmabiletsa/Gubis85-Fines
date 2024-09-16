@@ -67,23 +67,18 @@ const employees = [
     {
         name: "Ishmael Ngcobo",
         fines: [
-            { amount: 1000, reason: "Gross Misconduct", date: "04-09-2024" },
-        ]
+            { amount: 0, reason: "NO FINES" },        ]
     },
     {
         name: "Katlego Moagi",
         fines: [
-            { amount: 500, reason: "Exchaning company vehicle without consent from Ops Manager.", date: "05-09-2024" },
-            { amount: 500, reason: "Distortion", date: "09-09-2024" },
-
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
         name: "Hope Monakwe",
         fines: [
-            { amount: 250, reason: "Not concentrating", date: "07-09-2024" },   
-            { amount: 1000, reason: "Distortion", date: "09-09-2024" },
-            { amount: 500, reason: "Not thinking", date: "10-09-2024" },
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
@@ -95,40 +90,26 @@ const employees = [
     {
         name: "Brice Meissner",
         fines: [
-            { amount: 500, reason: "Late coming" },            
-            { amount: 250, reason: "Not following intructions" },               
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
         name: "Luzuko Komani",
         fines: [
-            { amount: 1000, reason: "Late coming" },            
-            { amount: 250, reason: "Late coming" },   
-            { amount: 500, reason: "Late coming" },   
-            { amount: 500, reason: "Late coming", date: "02-09-2024" },   
-        
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
         name: "Mzwandile Mabiletsa",
         fines: [
-            { amount: 1000, reason: "Late coming" },   
-            { amount: 250, reason: "Poor work performance" },          
-            { amount: 250, reason: "Not requesting fuel" },     
-            { amount: 500, reason: "Late coming", date: "05-09-2024" },      
-            { amount: 500, reason: "Not removing Mahlangu's personal items out of his vehicle", date: "08-09-2024" },
-            { amount: 500, reason: "Car due for service", date: "12-09-2024" },
+            { amount: 0, reason: "NO FINES" },
 
         ]
     },
     {
         name: "Fhedzani Malivha",
         fines: [
-            { amount: 250, reason: "Issuing all equipments to CPOs" },     
-            { amount: 250, reason: "Failure to take instructions", date: "2024-08-27" },            
-            { amount: 250, reason: "Not requesting fuel" },         
-            { amount: 2000, reason: "Leaving key to the safe", date: "10-09-2024" },
-            { amount: 250, reason: "Not following instructions", date: "11-09-2024" },                  
+            { amount: 0, reason: "NO FINES" },                 
         ]
     },
     {
@@ -152,25 +133,23 @@ const employees = [
     {
         name: "Mpho Maluleka",
         fines: [
-            { amount: 500, reason: "Exchaning company vehicle without consent from Ops Manager.", date: "05-09-2024" },
-        ]
+            { amount: 0, reason: "NO FINES" },        ]
     },
     {
         name: "Lindokuhle Masanabo",
         fines: [
-            { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },
-        ]
+            { amount: 0, reason: "NO FINES" },        ]
     },
     {
         name: "Ernest Maja",
         fines: [
-            { amount: 2000, reason: "Gross Misconduct", date: "04-09-2024" },
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
         name: "Thokozani Mahlangu",
         fines: [
-            { amount: 500, reason: "Exchaning company vehicle without consent from Ops Manager.", date: "05-09-2024" },
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
@@ -182,43 +161,38 @@ const employees = [
     {
         name: "Oriel Sefoloko",
         fines: [
-            { amount: 250, reason: "For Leaving with the Mahindra key" },
-            { amount: 500, reason: "Failure to follow instructions" },
-            { amount: 500, reason: "Late coming" },
-            { amount: 250, reason: "Inconveniecing the boss" },
+            { amount: 0, reason: "NO FINES" },
 
         ]
     },
     {
         name: "Malebogo Sere",
         fines: [
-            { amount: 250, reason: "For recognising Mr Khumalo" },
+            { amount: 0, reason: "NO FINES" },
         ]
     },
     {
         name: "Tshegofatso Tau",
         fines: [
-            { amount: 500, reason: "Failing Client's Request", date: "05-09-2024" },            
+            { amount: 0, reason: "NO FINES" },           
         ]
     },
     {
         name: "Mathews Gaubose",
         fines: [
-            { amount: 250, reason: "Lack of Concentration", date: "30-08-2024" },          
-            { amount: 250, reason: "Leaving lights on", date: "10-09-2024" },              
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
         name: "Kate Lebese",
         fines: [
-            { amount: 500, reason: "Leaving fleet control unattended", date: "10-09-2024" }, 
-            { amount: 250, reason: "Car due for service", date: "12-09-2024" },             
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
         name: "Busi Mahlangu",
         fines: [
-            { amount: 250, reason: "Car due for service", date: "12-09-2024" },             
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     
