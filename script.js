@@ -30,6 +30,12 @@ const employees = [
         ]
     },
     {
+        name: "Priscilla Masanabo",
+        fines: [
+            { amount: 500, reason: "Late coming", date: "17-09-2024" },             
+        ]
+    },
+    {
         name: "Precious Skosana",
         fines: [
             { amount: 0, reason: "NO FINES" },
@@ -83,10 +89,12 @@ const employees = [
             { amount: 0, reason: "NO FINES" },
         ]
     },
-    {
+    {  
         name: "Brice Meissner",
         fines: [
-            { amount: 500, reason: "Late coming", date: "16-09-2024" },             
+            { amount: 500, reason: "Late coming", date: "16-09-2024" },     
+            { amount: 500, reason: "For not reporting to the office", date: "18-09-2024" },             
+        
         ]
     },
     {
