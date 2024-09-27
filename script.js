@@ -53,7 +53,8 @@ const employees = [
     {
         name: "Lesego Moatshe",
         fines: [
-            { amount: 500, reason: "Failing to verify Bank Holdings pay slips", date: "15-09-2024" },             
+            { amount: 0, reason: "NO FINES" },
+
         ]
     },
     {
@@ -65,7 +66,7 @@ const employees = [
     {
         name: "Lesego Matea",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "Failing to verify Bank Holdings pay slips", date: "15-09-2024" },             
         ]
     },
     {
