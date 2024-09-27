@@ -26,9 +26,7 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 500, reason: "Delaying", date: "16-09-2024" },      
             { amount: 8000, reason: "Not following instructions", date: "26-09-2024" },    
-            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },                     
        
         ]
     },
@@ -84,13 +82,19 @@ const employees = [
     {
         name: "Hope Monakwe",
         fines: [
-            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },             
+            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },         
+            { amount: 250, reason: "FOR REFUSING FHEDZANI TO TAKE OUT THE GOODS FROM THE CAR AS INSTRUCTED", date: "27-09-2024" },     
+            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },         
+        
+    
         ]
     },
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },             
+            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },     
+            { amount: 250, reason: "FOR REFUSING FHEDZANI TO TAKE OUT THE GOODS FROM THE CAR AS INSTRUCTED", date: "27-09-2024" },             
+        
         ]
     },
     {  
@@ -110,7 +114,7 @@ const employees = [
     {
         name: "Mzwandile Mabiletsa",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },             
 
         ]
     },
@@ -118,7 +122,9 @@ const employees = [
         name: "Fhedzani Malivha",
         fines: [
             { amount: 500, reason: "For not following intructions", date: "18-09-2024" },
+            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },    
             { amount: 250, reason: "Not following instructions", date: "27-09-2024" },             
+         
 
         ]
     },
