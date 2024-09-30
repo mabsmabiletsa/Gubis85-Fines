@@ -14,7 +14,7 @@ const employees = [
     {
         name: "Zakhele Khumalo",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 2000, reason: "Late coming", date: "28-09-2024" },    
         ]
     },
     {
@@ -26,7 +26,7 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 8000, reason: "Not following instructions", date: "26-09-2024" },    
+            { amount: 6500, reason: "Not following instructions", date: "26-09-2024" },    
        
         ]
     },
@@ -191,7 +191,7 @@ const employees = [
     {
         name: "Tshegofatso Tau",
         fines: [
-            { amount: 0, reason: "NO FINES" },           
+            { amount: 1000, reason: "Late coming", date: "28-09-2024" },    
         ]
     },
     {
@@ -215,13 +215,15 @@ const employees = [
     {
         name: "Christopher Gumbi",
         fines: [
-            { amount: 500, reason: "Late coming", date: "15-09-2024" },             
+            { amount: 500, reason: "Late coming", date: "15-09-2024" },   
+            { amount: 1000, reason: "Late coming", date: "28-09-2024" },              
         ]
     },
     {
         name: "Azaria Khambani",
         fines: [
-            { amount: 500, reason: "Late coming", date: "15-09-2024" },             
+            { amount: 500, reason: "Late coming", date: "15-09-2024" },   
+            { amount: 1000, reason: "Late coming", date: "28-09-2024" },              
         ]
     },
     
