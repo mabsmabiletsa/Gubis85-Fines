@@ -15,6 +15,8 @@ const employees = [
         name: "Zakhele Khumalo",
         fines: [
             { amount: 2000, reason: "Late coming", date: "28-09-2024" },    
+            { amount: 1000, reason: "Late coming", date: "30-09-2024" },    
+
         ]
     },
     {
@@ -85,8 +87,7 @@ const employees = [
             { amount: 250, reason: "Not following instructions", date: "27-09-2024" },         
             { amount: 250, reason: "FOR REFUSING FHEDZANI TO TAKE OUT THE GOODS FROM THE CAR AS INSTRUCTED", date: "27-09-2024" },     
             { amount: 250, reason: "Not following instructions", date: "27-09-2024" },         
-        
-    
+            { amount: 4000, reason: "Not following instructions", date: "27-09-2024" },         
         ]
     },
     {
