@@ -83,11 +83,9 @@ const employees = [
     },
     {
         name: "Hope Monakwe",
-        fines: [
+        fines: [ 
             { amount: 250, reason: "Not following instructions", date: "27-09-2024" },         
-            { amount: 250, reason: "FOR REFUSING FHEDZANI TO TAKE OUT THE GOODS FROM THE CAR AS INSTRUCTED", date: "27-09-2024" },     
-            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },         
-            { amount: 4000, reason: "Not following instructions", date: "27-09-2024" },         
+            { amount: 2000, reason: "Not following instructions", date: "27-09-2024" },         
         ]
     },
     {
@@ -124,7 +122,8 @@ const employees = [
         fines: [
             { amount: 500, reason: "For not following intructions", date: "18-09-2024" },
             { amount: 250, reason: "Not following instructions", date: "27-09-2024" },    
-            { amount: 250, reason: "FOR NOT TAKING VEHICLES TO VALET", date: "27-09-2024" },             
+            { amount: 250, reason: "FOR NOT TAKING VEHICLES TO VALET", date: "27-09-2024" },        
+          //  { amount: 250, reason: "FOR NOT TAKING VEHICLES TO VALET", date: "27-09-2024" },
          
 
         ]
@@ -227,7 +226,20 @@ const employees = [
             { amount: 1000, reason: "Late coming", date: "28-09-2024" },              
         ]
     },
-    
+    {
+        name: "Nepthalie Antaya",
+        fines: [
+            { amount: 250, reason: "Not leaving out register out earlier", date: "01-10-2024" },             
+        ]
+    },
+    {
+        name: "Raymond Mnisi",
+        fines: [
+            { amount: 500, reason: "Not reporting sparewheel burst", date: "02-10-2024" },           
+            { amount: 500, reason: "Not filling in requisition for new tyres", date: "02-10-2024" },             
+  
+        ]
+    },
     // Add more employees and fines here
 ];
 
