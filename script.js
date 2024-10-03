@@ -78,7 +78,9 @@ const employees = [
     {
         name: "Katlego Moagi",
         fines: [
-            { amount: 500, reason: "Delaying", date: "16-09-2024" },             
+            { amount: 500, reason: "Delaying", date: "16-09-2024" },   
+            { amount: 500, reason: "Late coming", date: "01-10-2024" },     
+          
         ]
     },
     {
@@ -92,7 +94,8 @@ const employees = [
         name: "Kamogelo Methlape",
         fines: [
             { amount: 250, reason: "Not following instructions", date: "27-09-2024" },     
-            { amount: 250, reason: "FOR REFUSING FHEDZANI TO TAKE OUT THE GOODS FROM THE CAR AS INSTRUCTED", date: "27-09-2024" },             
+            { amount: 250, reason: "FOR REFUSING FHEDZANI TO TAKE OUT THE GOODS FROM THE CAR AS INSTRUCTED", date: "27-09-2024" }, 
+            
         
         ]
     },
@@ -166,7 +169,7 @@ const employees = [
     {
         name: "Thokozani Mahlangu",
         fines: [
-            { amount: 0, reason: "NO FINES" },
+            { amount: 500, reason: "Late coming", date: "01-10-2024" },     
         ]
     },
     {
