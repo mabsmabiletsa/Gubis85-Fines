@@ -30,6 +30,8 @@ const employees = [
         fines: [
             { amount: 1000, reason: "Not following instructions", date: "26-09-2024" },   
             { amount: 2000, reason: "Poor work performance", date: "07-10-2024" },
+            { amount: 2000, reason: "Poor work performance", date: "08-10-2024" },
+
  
        
         ]
@@ -44,6 +46,10 @@ const employees = [
         name: "Precious Skosana",
         fines: [
             { amount: 5000, reason: "Poor work performance", date: "01-10-2024" },
+            { amount: 2000, reason: "Poor work performance", date: "08-10-2024" },
+            { amount: 500, reason: "Poor work performance", date: "08-10-2024" },
+
+
         ]
     },
     {
