@@ -65,12 +65,6 @@ const employees = [
         ]
     },
     {
-        name: "Naledi Bhuda",
-        fines: [
-            { amount: 0, reason: "NO FINES" },
-        ]
-    },
-    {
         name: "Lesego Matea",
         fines: [
             { amount: 500, reason: "Failing to verify Bank Holdings pay slips", date: "15-09-2024" },             
@@ -164,12 +158,6 @@ const employees = [
         name: "Lindokuhle Masanabo",
         fines: [
             { amount: 0, reason: "NO FINES" },        ]
-    },
-    {
-        name: "Ernest Maja",
-        fines: [
-            { amount: 0, reason: "NO FINES" },
-        ]
     },
     {
         name: "Thokozani Mahlangu",
