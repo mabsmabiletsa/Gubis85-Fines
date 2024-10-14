@@ -14,7 +14,8 @@ const employees = [
     {
         name: "Zakhele Khumalo",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 2000, reason: "Late coming", date: "28-09-2024" },    
+            { amount: 1000, reason: "Late coming", date: "30-09-2024" },    
 
         ]
     },
@@ -27,7 +28,7 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 2000, reason: "Poor work performance", date: "08-10-2024" },
 
  
        
@@ -36,14 +37,14 @@ const employees = [
     {
         name: "Priscilla Masanabo",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 500, reason: "Late coming", date: "17-09-2024" },             
         ]
     },
     {
         name: "Precious Skosana",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
-
+            { amount: 5000, reason: "Poor work performance", date: "01-10-2024" },
+            { amount: 500, reason: "Poor work performance", date: "08-10-2024" },
 
 
         ]
@@ -51,7 +52,7 @@ const employees = [
     {
         name: "Maud Weideman",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 2000, reason: "Poor work performance", date: "03-10-2024" },
         ]
     },
     {
@@ -64,7 +65,7 @@ const employees = [
     {
         name: "Lesego Matea",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 500, reason: "Failing to verify Bank Holdings pay slips", date: "15-09-2024" },             
         ]
     },
     {
@@ -76,22 +77,22 @@ const employees = [
     {
         name: "Katlego Moagi",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 500, reason: "Late coming", date: "01-10-2024" },     
           
         ]
     },
     {
         name: "Hope Monakwe",
         fines: [ 
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
-   
+            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },         
+            { amount: 2000, reason: "Not following instructions", date: "27-09-2024" },         
         ]
     },
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
- 
+            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },     
+            { amount: 250, reason: "FOR REFUSING FHEDZANI TO TAKE OUT THE GOODS FROM THE CAR AS INSTRUCTED", date: "27-09-2024" }, 
             
         
         ]
@@ -99,14 +100,15 @@ const employees = [
     {  
         name: "Brice Meissner",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
-
+            { amount: 500, reason: "Late coming", date: "16-09-2024" },     
+            { amount: 500, reason: "For not reporting to the office", date: "18-09-2024" },             
+        
         ]
     },
     {
         name: "Luzuko Komani",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 750, reason: "Not following instructions", date: "22-09-2024" },       
         ]
     },
     {
@@ -118,8 +120,10 @@ const employees = [
     {
         name: "Fhedzani Malivha",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
-            
+            { amount: 500, reason: "For not following intructions", date: "18-09-2024" },
+            { amount: 250, reason: "Not following instructions", date: "27-09-2024" },    
+            { amount: 250, reason: "FOR NOT TAKING VEHICLES TO VALET", date: "27-09-2024" },        
+            { amount: 500, reason: "For not installing e-tag in the Hilux", date: "5-10-2024" },
          
 
         ]
@@ -133,7 +137,7 @@ const employees = [
     {
         name: "Matimba Chauke",
         fines: [
-            { amount: 250, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 250, reason: "Not dressing appropiately", date: "10-10-2024" },
         ]
     },
     {
@@ -145,7 +149,7 @@ const employees = [
     {
         name: "Mpho Maluleka",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 750, reason: "Not following instructions", date: "22-09-2024" },       
          ]
     },
     {
@@ -156,7 +160,7 @@ const employees = [
     {
         name: "Thokozani Mahlangu",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 500, reason: "For late coming", date: "11-10-2024" },
         ]
     },
     {
@@ -181,7 +185,7 @@ const employees = [
     {
         name: "Tshegofatso Tau",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 1000, reason: "Late coming", date: "28-09-2024" },    
         ]
     },
     {
@@ -205,15 +209,15 @@ const employees = [
     {
         name: "Christopher Gumbi",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
-          
+            { amount: 500, reason: "Late coming", date: "15-09-2024" },   
+            { amount: 1000, reason: "Late coming", date: "28-09-2024" },              
         ]
     },
     {
         name: "Azaria Khambani",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
-         
+            { amount: 500, reason: "Late coming", date: "15-09-2024" },   
+            { amount: 1000, reason: "Late coming", date: "28-09-2024" },              
         ]
     },
     {
@@ -225,8 +229,8 @@ const employees = [
     {
         name: "Raymond Mnisi",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
-            
+            { amount: 500, reason: "Not reporting sparewheel burst", date: "02-10-2024" },           
+            { amount: 500, reason: "Not filling in requisition for new tyres", date: "02-10-2024" },             
   
         ]
     },
