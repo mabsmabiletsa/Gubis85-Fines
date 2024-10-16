@@ -27,7 +27,7 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
 
  
        
@@ -36,13 +36,13 @@ const employees = [
     {
         name: "Priscilla Masanabo",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
         name: "Precious Skosana",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
 
 
 
@@ -51,7 +51,7 @@ const employees = [
     {
         name: "Maud Weideman",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
@@ -64,7 +64,7 @@ const employees = [
     {
         name: "Lesego Matea",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
@@ -76,21 +76,21 @@ const employees = [
     {
         name: "Katlego Moagi",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
           
         ]
     },
     {
         name: "Hope Monakwe",
         fines: [ 
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
    
         ]
     },
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
  
             
         
@@ -99,14 +99,14 @@ const employees = [
     {  
         name: "Brice Meissner",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
 
         ]
     },
     {
         name: "Luzuko Komani",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
@@ -118,9 +118,8 @@ const employees = [
     {
         name: "Fhedzani Malivha",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
-            
-         
+            { amount: 0, reason: "NO FINES" },             
+                
 
         ]
     },
@@ -133,7 +132,7 @@ const employees = [
     {
         name: "Matimba Chauke",
         fines: [
-            { amount: 250, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
@@ -145,7 +144,7 @@ const employees = [
     {
         name: "Mpho Maluleka",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
          ]
     },
     {
@@ -156,7 +155,7 @@ const employees = [
     {
         name: "Thokozani Mahlangu",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
@@ -181,7 +180,7 @@ const employees = [
     {
         name: "Tshegofatso Tau",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
@@ -205,27 +204,27 @@ const employees = [
     {
         name: "Christopher Gumbi",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
           
         ]
     },
     {
         name: "Azaria Khambani",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
          
         ]
     },
     {
         name: "Nepthalie Antaya",
         fines: [
-            { amount: 250, reason: "Not leaving out register out earlier", date: "01-10-2024" },             
+            { amount: 0, reason: "NO FINES" },             
         ]
     },
     {
         name: "Raymond Mnisi",
         fines: [
-            { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
+            { amount: 0, reason: "NO FINES" },             
             
   
         ]
