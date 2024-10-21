@@ -1,4 +1,4 @@
-
+/*
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -71,7 +71,7 @@ button:hover {
     background-color: #e55c00;
 }
 
-/* Form */
+/* Form 
 form {
     display: flex;
     flex-direction: column;
@@ -101,11 +101,165 @@ textarea {
     margin-right: 10px;
 }
 
-/* Footer Styling */
+/* Footer Styling 
 footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Responsive Design 
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+    #logo {
+        max-width: 150px;
+    }
+}
+    */
+
+    /* Dark mode*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #1e1e1e; /* Darker header */
+    padding: 10px;
+}
+
+#logo {
+    max-width: 200px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #1e1e1e; /* Dark background for content */
+    color: #ffffff; /* Light text for content */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    flex: 1;
+}
+
+h1 {
+    color: #ffffff; /* Light header color */
+    text-align: center;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #444; /* Subtle line */
+    cursor: pointer;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #333; /* Slight hover effect */
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #ff6600; /* Bright button for contrast */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e55c00; /* Slight hover effect */
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #555; /* Darker input borders */
+    background-color: #333; /* Dark input background */
+    color: #ffffff; /* Light input text */
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+#dispute-form button {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Darker footer */
     color: white;
     font-size: 14px;
     margin-top: 20px;
@@ -139,8 +293,8 @@ footer {
     footer {
         font-size: 12px;
     }
+
     #logo {
         max-width: 150px;
     }
-
 }
