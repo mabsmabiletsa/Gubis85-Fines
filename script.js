@@ -15,7 +15,9 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 1000, reason: "For not fining Mzwandile", date: "21-10-2024" },                    
+            { amount: 1000, reason: "For not fining Mzwandile", date: "21-10-2024" },      
+            { amount: 1000, reason: "Poor work performance", date: "21-10-2024" },                    
+              
         ]
     },
     {
@@ -127,7 +129,7 @@ const employees = [
     {
         name: "Mpho Maluleka",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 500, reason: "For not wearing appropriate uniform", date: "21-10-2024" },
          ]
     },
     {
