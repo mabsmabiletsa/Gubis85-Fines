@@ -1,17 +1,5 @@
 const employees = [
     {
-        name: "Calvin Mahlangu",
-        fines: [
-            { amount: 0, reason: "NO FINES" },
-        ]
-    },
-    {
-        name: "Boitumelo Mahlangu",
-        fines: [
-            { amount: 0, reason: "NO FINES" },
-        ]
-    },
-    {
         name: "Zakhele Khumalo",
         fines: [
             { amount: 500, reason: "DISCOUNT", date: "10-10-2024" },    
@@ -27,10 +15,7 @@ const employees = [
     {
         name: "William Moshupye",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
-
- 
-       
+            { amount: 0, reason: "NO FINES" },                    
         ]
     },
     {
@@ -42,9 +27,7 @@ const employees = [
     {
         name: "Precious Skosana",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
-
-
+            { amount: 2000, reason: "Failure to procedurely communicate tasks", date:"21-10-2024" },             
 
         ]
     },
