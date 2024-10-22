@@ -81,13 +81,6 @@ const employees = [
         
         ]
     },
-    {  
-        name: "Brice Meissner",
-        fines: [
-            { amount: 500, reason: "Late coming", date: "22-10-2024" },    
-
-        ]
-    },
     {
         name: "Luzuko Komani",
         fines: [
