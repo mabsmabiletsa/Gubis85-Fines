@@ -55,7 +55,7 @@ const employees = [
     {
         name: "Ishmael Ngcobo",
         fines: [
-            { amount: 0, reason: "NO FINES" },        
+            { amount: 500, reason: "Late coming", date: "22-10-2024" },    
         ]
     },
     {
@@ -84,7 +84,7 @@ const employees = [
     {  
         name: "Brice Meissner",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 500, reason: "Late coming", date: "22-10-2024" },    
 
         ]
     },
