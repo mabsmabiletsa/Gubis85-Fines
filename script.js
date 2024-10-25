@@ -57,7 +57,8 @@ const employees = [
         fines: [
             { amount: 500, reason: "Late coming", date: "22-10-2024" },   
             { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
- 
+            { amount: 500, reason: "For late coming", date: "25-10-2024" },             
+
         ]
     },
     {
