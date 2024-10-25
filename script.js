@@ -55,13 +55,17 @@ const employees = [
     {
         name: "Ishmael Ngcobo",
         fines: [
-            { amount: 500, reason: "Late coming", date: "22-10-2024" },    
+            { amount: 500, reason: "Late coming", date: "22-10-2024" },   
+            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
+ 
         ]
     },
     {
         name: "Katlego Moagi",
         fines: [
-            { amount: 4500, reason: "For reporting late in behalf of other employees", date: "22-10-2024" },             
+            { amount: 4500, reason: "For reporting late in behalf of other employees", date: "22-10-2024" },          
+            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
+   
           
         ]
     },
@@ -75,10 +79,13 @@ const employees = [
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
- 
-            
-        
+            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
+        ]
+    },
+    {
+        name: "Kamogelo Monakwe",
+        fines: [
+            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
         ]
     },
     {
@@ -96,7 +103,7 @@ const employees = [
     {
         name: "Fhedzani Malivha",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
                 
 
         ]
@@ -123,6 +130,8 @@ const employees = [
         name: "Mpho Maluleka",
         fines: [
             { amount: 500, reason: "For not wearing appropriate uniform", date: "21-10-2024" },
+            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
+
          ]
     },
     {
@@ -133,7 +142,7 @@ const employees = [
     {
         name: "Thokozani Mahlangu",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
         ]
     },
     {
