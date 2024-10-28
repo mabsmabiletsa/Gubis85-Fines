@@ -178,7 +178,7 @@ const employees = [
     {
         name: "Mathews Gaubose",
         fines: [
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 1000, reason: "for delaying other CPO'S", date: "28-10-2024" },             
         ]
     },
     {
