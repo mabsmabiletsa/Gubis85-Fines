@@ -100,14 +100,15 @@ const employees = [
         name: "Mzwandile Mabiletsa",
         fines: [
             { amount: 1000, reason: "For not reporting in time", date: "21-10-2024" },
+            { amount: 1000, reason: "For not renewing license disc", date: "28-10-2024" },
+
         ]
     },
     {
         name: "Fhedzani Malivha",
         fines: [
             { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
-                
-
+            { amount: 1000, reason: "For not renewing license disc", date: "28-10-2024" },
         ]
     },
     {
