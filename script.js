@@ -238,6 +238,16 @@ function displayEmployees() {
         employeeList.appendChild(li);
     });
 }
+function calculateGrandTotal() {
+    let grandTotal = 0;
+    employees.forEach(employee => {
+        grandTotal += employee.fines.reduce((sum, fine) => sum + fine.amount, 0);
+    });
+    document.getElementById('total-fines').textContent = `R${grandTotal.toLocaleString()}`;
+}
+
+// Call the function to calculate and display the total on page load
+calculateGrandTotal();
 
 
 function showDetails(index) {
