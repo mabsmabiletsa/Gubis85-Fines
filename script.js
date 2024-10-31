@@ -18,7 +18,9 @@ const employees = [
         fines: [
             { amount: 1000, reason: "For not fining Mzwandile", date: "21-10-2024" },      
             { amount: 1000, reason: "Poor work performance", date: "21-10-2024" },                    
-            { amount: 2000, reason: "Poor work performance", date: "28-10-2024" },                    
+            { amount: 2000, reason: "Poor work performance", date: "28-10-2024" },    
+            { amount: 2000, reason: "For not staring up the office vehicles", date: "31-10-2024" },
+                
 
         ]
     },
@@ -103,6 +105,7 @@ const employees = [
         fines: [
             { amount: 1000, reason: "For not reporting in time", date: "21-10-2024" },
             { amount: 1000, reason: "For not renewing license disc", date: "28-10-2024" },
+            { amount: 1000, reason: "For not staring up the office vehicles", date: "31-10-2024" },
 
         ]
     },
@@ -111,6 +114,8 @@ const employees = [
         fines: [
             { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
             { amount: 1000, reason: "For not renewing license disc", date: "28-10-2024" },
+            { amount: 1000, reason: "For not staring up the office vehicles", date: "31-10-2024" },
+
         ]
     },
     {
