@@ -16,7 +16,7 @@ const employees = [
         name: "William Moshupye",
         fines: [
                 
-            { amount: 1500, reason: "For not staring up the office vehicles", date: "31-10-2024" },
+            { amount: 1000, reason: "For not staring up the office vehicles", date: "31-10-2024" },
                 
 
         ]
@@ -180,6 +180,23 @@ const employees = [
         name: "Mathews Gaubose",
         fines: [
             { amount: 1000, reason: "for delaying other CPO'S", date: "28-10-2024" },             
+            { amount: 500, reason: "Parking in the wrong parking", date: "01-11-2024" },
+            { amount: 500, reason: "Damage on company vehicle", date: "01-11-2024" },             
+
+        ]
+    },
+    {
+        name: "Nigel Khumalo",
+        fines: [
+            { amount: 500, reason: "Damage on company vehicle", date: "01-11-2024" },             
+
+        ]
+    },
+    {
+        name: "Thabang Mathaba",
+        fines: [
+            { amount: 500, reason: "Damage on company vehicle", date: "01-11-2024" },             
+
         ]
     },
     {
@@ -228,6 +245,7 @@ const employees = [
   
         ]
     },
+
     // Add more employees and fines here
 ];
 
