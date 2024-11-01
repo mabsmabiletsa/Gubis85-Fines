@@ -16,7 +16,7 @@ const employees = [
         name: "William Moshupye",
         fines: [
                 
-            { amount: 2000, reason: "For not staring up the office vehicles", date: "31-10-2024" },
+            { amount: 1500, reason: "For not staring up the office vehicles", date: "31-10-2024" },
                 
 
         ]
@@ -56,7 +56,6 @@ const employees = [
     {
         name: "Ishmael Ngcobo",
         fines: [
-            { amount: 500, reason: "Late coming", date: "22-10-2024" },   
             { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
             { amount: 500, reason: "For late coming", date: "25-10-2024" },             
 
@@ -66,7 +65,7 @@ const employees = [
         name: "Katlego Moagi",
         fines: [
             { amount: 4000, reason: "For reporting late in behalf of other employees", date: "22-10-2024" },          
-            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
+            { amount: 500, reason: "For late coming", date: "25-10-2024" },             
             { amount: 2000, reason: "For late coming", date: "26-10-2024" },             
 
           
