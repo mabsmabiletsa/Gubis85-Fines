@@ -220,7 +220,7 @@ const employees = [
     {
         name: "Ntshuxeko Makwakwa",
         fines: [
-            { amount: 2000, reason: "Poor work performance", date : "01-11-2024" },             
+            { amount: 1500, reason: "Poor work performance", date : "01-11-2024" },             
         ]
     },
     {
