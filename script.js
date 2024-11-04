@@ -74,8 +74,14 @@ const employees = [
     {
         name: "Hope Monakwe",
         fines: [ 
-            { amount: 0, reason: "NO FINES" },             
+            { amount: 250, reason: "For not leaving Tamboti keys behind", date: "04-11-2024" },             
    
+        ]
+    },
+    {
+        name: "Surprise Motha",
+        fines: [
+            { amount: 250, reason: "For not leaving Tamboti keys behind", date: "04-11-2024" },             
         ]
     },
     {
