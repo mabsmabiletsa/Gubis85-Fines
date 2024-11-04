@@ -129,7 +129,7 @@ const employees = [
     {
         name: "Surprise Motha",
         fines: [
-            { amount: 250, reason: "For not leaving Tamboti keys behind", date: "04-11-2024" },             
+            { amount: 250, reason: "For not leaving Tamboti keys behind.", date: "04-11-2024" },             
         ]
     },
     {
