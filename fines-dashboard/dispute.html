@@ -7,22 +7,18 @@
     <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body>
-    <header>
-        <h1>Dispute a Fine</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="landing.html">Overview</a>
-            <a href="fines.html">View Fines</a>
-        </nav>
-    </header>
-    <section>
-        <form id="dispute-form">
-            <label for="employee-email">Email:</label>
-            <input type="email" id="employee-email" name="email" required>
-            <label for="fine-reason">Reason for Dispute:</label>
-            <textarea id="fine-reason" name="reason" required></textarea>
-            <button type="submit">Submit Dispute</button>
+    <main class="container">
+        <h2>Dispute a Fine</h2>
+        <p>If you feel a fine was issued in error, please complete the form below to dispute it.</p>
+        <form action="#" method="POST">
+            <label for="fineID">Fine ID:</label>
+            <input type="text" id="fineID" name="fineID" required>
+
+            <label for="reason">Reason for Dispute:</label>
+            <textarea id="reason" name="reason" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Submit Dispute</button>
         </form>
-    </section>
+    </main>
 </body>
 </html>

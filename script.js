@@ -81,7 +81,7 @@ const employees = [
     {
         name: "Kamogelo Methlape",
         fines: [
-            { amount: 1000, reason: "For late coming", date: "25-10-2024" },             
+            { amount: 500, reason: "For late coming", date: "25-10-2024" },             
         ]
     },
     {
@@ -248,6 +248,16 @@ const employees = [
 
     // Add more employees and fines here
 ];
+
+// main.js
+document.addEventListener('DOMContentLoaded', () => {
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    mobileMenuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+});
 
 let currentEmployee = '';
 

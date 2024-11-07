@@ -4,16 +4,229 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Fines Dashboard</title>
-    <link rel="stylesheet" href="/styles/main.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #e9ecef;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .features {
+            padding: 4rem 0;
+            background-color: #f8f9fa;
+        }
+        .features h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .feature-card {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .feature-card h3 {
+            margin-bottom: 1rem;
+        }
+        .testimonials {
+            padding: 4rem 0;
+        }
+        .testimonials h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .testimonial-card {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .footer-links {
+            margin-top: 1rem;
+        }
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .mobile-menu-btn {
+                display: block;
+                font-size: 1.5rem;
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+            .nav-links.active {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                background-color: #f4f4f4;
+                padding: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to the Employee Fines Dashboard</h1>
-        <nav>
-            <a href="landing.html">Overview</a>
-            <a href="fines.html">View Fines</a>
-            <a href="dispute.html">Dispute a Fine</a>
+        <nav class="container">
+            <div class="logo">Employee Fines Dashboard</div>
+            <button class="mobile-menu-btn">☰</button>
+            <div class="nav-links">
+                <a href="#overview">Overview</a>
+                <a href="#view-fines">View Fines</a>
+                <a href="#dispute">Dispute a Fine</a>
+            </div>
         </nav>
     </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to the Employee Fines Dashboard</h1>
+                <p>Manage and track employee fines with ease. Our dashboard provides a comprehensive overview of all fines and disputes.</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>Comprehensive Overview</h3>
+                        <p>Get a detailed view of all employee fines in one place.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Secure Dispute Process</h3>
+                        <p>Easily dispute fines with our secure and transparent process.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Real-time Updates</h3>
+                        <p>Stay informed with real-time updates on fine statuses and disputes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2>What Our Users Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p>"This dashboard has streamlined our fine management process. It's user-friendly and efficient!"</p>
+                        <p><strong>- John Doe, HR Manager</strong></p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"The dispute feature is fantastic. It's made the process much more transparent for our employees."</p>
+                        <p><strong>- Jane Smith, Operations Director</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Employee Fines Dashboard. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>

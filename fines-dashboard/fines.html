@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fines Details</title>
+    <title>View Fines</title>
     <link rel="stylesheet" href="/styles/main.css">
-    <script defer src="/scripts/main.js"></script>
 </head>
 <body>
     <header>
-        <h1>Detailed Fines List</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="landing.html">Overview</a>
-            <a href="dispute.html">Dispute a Fine</a>
+        <nav class="container">
+            <a href="index.html" class="logo">Employee Fines Dashboard</a>
+            <div class="nav-links">
+                <a href="landing.html">Overview</a>
+                <a href="fines.html">View Fines</a>
+                <a href="dispute.html">Dispute a Fine</a>
+            </div>
         </nav>
     </header>
-    <div id="fines-container">
-        <ul id="fines-list">
-            <!-- JavaScript will populate the fines data -->
-        </ul>
-    </div>
+
+    <main>
+        <section class="container">
+            <h2>Employee Fines</h2>
+            <p>Here is the list of all employee fines with details.</p>
+            <!-- Code for displaying fines goes here -->
+        </section>
+    </main>
 </body>
 </html>
